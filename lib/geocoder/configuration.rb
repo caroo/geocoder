@@ -12,6 +12,12 @@ module Geocoder
         # ISO-639 language code
         [:language, :en],
 
+        # ISO-3166-1 alpha-2 country code
+        [:country, :US],
+
+        # Limit results to the locale country
+        [:limit_to_country, false],
+
         # use HTTPS for lookup requests? (if supported)
         [:use_https, false],
 
